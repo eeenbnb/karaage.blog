@@ -6,28 +6,29 @@
     <description>Recent content on 唐揚げとエンジニアリング</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 24 May 2017 11:35:38 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 24 May 2017 19:33:31 +0900</lastBuildDate>
     
 	<atom:link href="http://blog.karaage.tokyo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>about</title>
-      <link>http://blog.karaage.tokyo/page/about/</link>
-      <pubDate>Wed, 24 May 2017 11:35:38 +0900</pubDate>
+      <title>test2</title>
+      <link>http://blog.karaage.tokyo/post/test2/</link>
+      <pubDate>Wed, 24 May 2017 19:33:31 +0900</pubDate>
       
-      <guid>http://blog.karaage.tokyo/page/about/</guid>
-      <description>唐揚げ大好き
-karaage.tokyoをつくる</description>
+      <guid>http://blog.karaage.tokyo/post/test2/</guid>
+      <description>aaa</description>
     </item>
     
     <item>
-      <title>カレーとからあげの組み合わせは神</title>
-      <link>http://blog.karaage.tokyo/post/2017-05-24-test/</link>
-      <pubDate>Wed, 24 May 2017 10:59:02 +0900</pubDate>
+      <title>test</title>
+      <link>http://blog.karaage.tokyo/post/test/</link>
+      <pubDate>Wed, 24 May 2017 19:27:59 +0900</pubDate>
       
-      <guid>http://blog.karaage.tokyo/post/2017-05-24-test/</guid>
-      <description>&lt;p&gt;テスト投稿ほげほげ&lt;/p&gt;</description>
+      <guid>http://blog.karaage.tokyo/post/test/</guid>
+      <description>&lt;p&gt;hogehoge&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

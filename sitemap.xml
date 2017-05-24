@@ -3,40 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://blog.karaage.tokyo/page/about/</loc>
-    <lastmod>2017-05-24T11:35:38+09:00</lastmod>
+    <loc>http://blog.karaage.tokyo/post/test2/</loc>
+    <lastmod>2017-05-24T19:33:31+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.karaage.tokyo/post/2017-05-24-test/</loc>
-    <lastmod>2017-05-24T10:59:02+09:00</lastmod>
+    <loc>http://blog.karaage.tokyo/post/test/</loc>
+    <lastmod>2017-05-24T19:27:59+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http://blog.karaage.tokyo/categories/</loc>
+    <loc>http://blog.karaage.tokyo/categories/blog/</loc>
+    <lastmod>2017-05-24T19:27:59+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://blog.karaage.tokyo/page/</loc>
-    <lastmod>2017-05-24T11:35:38+09:00</lastmod>
+    <loc>http://blog.karaage.tokyo/categories/</loc>
+    <lastmod>2017-05-24T19:27:59+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.karaage.tokyo/tags/hello/</loc>
+    <lastmod>2017-05-24T19:27:59+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.karaage.tokyo/post/</loc>
-    <lastmod>2017-05-24T10:59:02+09:00</lastmod>
+    <lastmod>2017-05-24T19:33:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.karaage.tokyo/tags/</loc>
+    <lastmod>2017-05-24T19:27:59+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.karaage.tokyo/tags/world/</loc>
+    <lastmod>2017-05-24T19:27:59+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.karaage.tokyo/</loc>
-    <lastmod>2017-05-24T11:35:38+09:00</lastmod>
+    <lastmod>2017-05-24T19:33:31+09:00</lastmod>
     <priority>0</priority>
   </url>
   
