@@ -6,28 +6,9 @@
     <description>Recent content in Tags on 唐揚げとエンジニアリング</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 24 May 2017 19:27:59 +0900</lastBuildDate>
     
 	<atom:link href="http://blog.karaage.tokyo/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Hello</title>
-      <link>http://blog.karaage.tokyo/tags/hello/</link>
-      <pubDate>Wed, 24 May 2017 19:27:59 +0900</pubDate>
-      
-      <guid>http://blog.karaage.tokyo/tags/hello/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>World</title>
-      <link>http://blog.karaage.tokyo/tags/world/</link>
-      <pubDate>Wed, 24 May 2017 19:27:59 +0900</pubDate>
-      
-      <guid>http://blog.karaage.tokyo/tags/world/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>
