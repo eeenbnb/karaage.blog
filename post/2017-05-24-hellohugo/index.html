@@ -1,16 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="jp">
 <head>
+  <title>唐揚げとエンジニアリング - Hello,hugo</title>
+  <meta content="唐揚げとエンジニアリング - Hello,hugo" name="title">
+  <meta content="hugoを導入した
+それらのメモ" name="description">
+  <meta content='eee_nbnb,blog,エンジニア,唐揚げ' name='keywords'>
+  <meta content="summary" name="twitter:card" />
+  <meta content="@eee_nbnb" name="twitter:site" />
+  <meta property="og:title" content="唐揚げとエンジニアリング"/>
+  <meta property="og:description" content="hugoを導入した
+それらのメモ" />
+  <meta property="og:image" content="/img/hugo.png" />
+  <meta property="og:url" content="http://blog.karaage.tokyo/post/2017-05-24-hellohugo/" />
+  <meta property="og:type" content="blog"/>
+  <meta property="og:site_name" content="唐揚げとエンジニアリング"/>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta content='eee_nbnb,blog,エンジニア,唐揚げ' name='keywords'>
 
-<meta property="og:type" content="blog"/>
-<meta property="og:site_name" content="唐揚げとエンジニアリング"/>
-<meta content="summary" name="twitter:card" />
-<meta content="@eee_nbnb" name="twitter:site" />
-
-<title>hello,hugo</title>
 <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link rel="stylesheet" href="http://blog.karaage.tokyo/css/materialize.min.css">
 <link rel="stylesheet" href="http://blog.karaage.tokyo/css/common.css">
@@ -25,64 +32,16 @@ crossorigin="anonymous"></script>
 <script src="http://blog.karaage.tokyo/js/materialize.min.js"></script>
 <script src="http://blog.karaage.tokyo/js/common.js"></script>
 
-    <meta content="hugoを導入した
-
-
-
-この記事は制作途中です。　　
-
-テンプレート使うのもアレなので一からサイト作ってるんだけど、hugo良いですね。
-頑張って作ります。
-
-
-
-以下テンプレート用テスト
-
-
-1
-2
-3
-
-
-  hoge &#43; hoge = hogehoge
-  test         test          test
-
-
-
-konnitiwa
-" name="description">
-    <meta property="og:title" content="唐揚げとエンジニアリング - hello,hugo"/>
-    <meta content="唐揚げとエンジニアリング - hello,hugo" name="title">
-    <meta property="og:description" content="hugoを導入した
-
-
-
-この記事は制作途中です。　　
-
-テンプレート使うのもアレなので一からサイト作ってるんだけど、hugo良いですね。
-頑張って作ります。
-
-
-
-以下テンプレート用テスト
-
-
-1
-2
-3
-
-
-  hoge &#43; hoge = hogehoge
-  test         test          test
-
-
-
-konnitiwa
-" />
-    <meta property="og:image" content="/img/karaage1.jpg" />
-    <meta property="og:url" content="http://blog.karaage.tokyo/post/2017-05-24-hellohugo/" />
 </head>
 <body>
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.4";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
   <header>
   <h5 class="center"><a class="black-text"  href="http://blog.karaage.tokyo/">唐揚げとエンジニアリング</a></h5>
   <hr class="style5">
@@ -92,37 +51,103 @@ konnitiwa
       <div class="row">
         <div class="col s0 l2"></div>
         <div class="col s12 l8">
-          <h1 class="title">hello,hugo</h1>
-
+          <h1 class="title title-unserline">Hello,hugo</h1>
           <article class="entry-content">
-           <p>hugoを導入した</p>
+           <p>hugoを導入した<br />
+それらのメモ</p>
 
-<p></p>
+<p>
+ <div class="center">
+  <img src="/img/hugo.png" width="25%">
+ </div></p>
 
-<p>この記事は制作途中です。　　</p>
+<h1 id="hugo-とは">hugo とは</h1>
 
-<p>テンプレート使うのもアレなので一からサイト作ってるんだけど、hugo良いですね。<br />
-頑張って作ります。</p>
+<h5 id="https-gohugo-io-https-gohugo-io"><a href="https://gohugo.io/">https://gohugo.io/</a></h5>
+
+<ul>
+<li>静的サイトジェネレーターであり、テンプレートなどを書いてbuildするとHTMLが出力される。</li>
+<li>記事などをmarkdownで書ける。</li>
+<li>HTMLで出力されるのでGithubPagesなどで運用できる。</li>
+<li>などなど…</li>
+</ul>
+
+<p>Wordpressを運用するほどでもないブログを作成するにはもってこいなので今回はこちらで一からテンプレートを作ってGithubPagesで運用することにした。</p>
 
 <hr />
 
-<h1 id="以下テンプレート用テスト">以下テンプレート用テスト</h1>
+<h1 id="インストール">インストール</h1>
 
-<ul>
-<li>1</li>
-<li>2</li>
-<li>3</li>
-</ul>
+<p>私はwinとmacを使うので両方のインストール方法を書いておく。</p>
 
-<pre><code>  hoge + hoge = hogehoge
-  test         test          test
+<p>まずはGoのインストールをする。<br />
+<a href="https://golang.org/">https://golang.org/</a></p>
+
+<pre><code>$ go version
+go version go1.8.2 windows/amd64
 </code></pre>
 
-<p><code>
-konnitiwa
-</code></p>
+<p>go get した時のPATHを通す。</p>
+
+<p>windowsでは</p>
+
+<pre><code>C:\Users\ユーザー名\go\bin
+</code></pre>
+
+<p>macの場合は</p>
+
+<pre><code>export GOPATH=&quot;$HOME/.go&quot;
+export PATH=&quot;$PATH:$HOME/.go/bin&quot;
+</code></pre>
+
+<p>を.bush_profileなどに書いておく。</p>
+
+<p>次にhugoのインストール。</p>
+
+<pre><code>$ git clone https://github.com/spf13/hugo.git
+$ cd hugo
+$ go get
+
+$ hugo version
+Hugo Static Site Generator v0.22-DEV windows/amd64 BuildDate: 2017-05-24T10:53:10+09:00
+</code></pre>
+
+<hr />
+
+<h1 id="テンプレート作成">テンプレート作成</h1>
+
+<p>プロジェクトファイルを作成する。</p>
+
+<pre><code>$ hugo new site hoge
+</code></pre>
+
+<p>とりあえず起動する。</p>
+
+<pre><code>$ cd hoge
+$ hugo server
+</code></pre>
+
+<p>多分何も表示されない。<br />
+テンプレートは <strong>/layouts</strong> に作成する。</p>
+
+<pre><code>$ cd layouts
+$ echo &quot;&lt;p&gt;hogehoge&lt;/p&gt;&quot; &gt; index.html
+</code></pre>
+
+<p>もう一度起動すると何かしら出るはず。<br />
+テンプレートの話はまたいつか書きます。</p>
           </article>
-        </div>
+          <hr>
+          <div class="center">
+          <p> 2017月05月24日 Written by eee_nbnb</p>
+          <div style="margin-top:5px">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-via="eee_nbnb" data-size="large" data-dnt="true">Tweet</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <div class="fb-like" data-href="http://blog.karaage.tokyo/post/2017-05-24-hellohugo/" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="false"></div>
+            <div class="line-it-button" data-lang="ja" data-type="share-c" data-url="http://blog.karaage.tokyo/post/2017-05-24-hellohugo/" style="display: none;"></div>
+            <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+            <a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+          </div>
+          </div>
         <div class="col s0 l2"></div>
   </div>
     </main>
@@ -135,7 +160,7 @@ konnitiwa
      <div class="container">
        <div class="row">
          <div class="col l6 s12">
-           <h5 class="white-text">唐揚げとエンジニアリング</h5>
+           <h5><a class="white-text" href="http://blog.karaage.tokyo/">唐揚げとエンジニアリング</a></h5>
            <div class="col s3">
              <img src="http://blog.karaage.tokyo/img/icon.png" alt="" class="circle responsive-img">
            </div>

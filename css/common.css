@@ -84,7 +84,7 @@ body {
  	padding-top: 0.2em;
  	padding-bottom: 0.2em;
  	margin: 0.2em;
- 	font-size: 85%;
+ 	font-size: 1.1em;
  	background-color: rgba(0,0,0,0.04);
  	border-radius: 3px;
   border:#000000 dashed 1px;
@@ -98,7 +98,7 @@ body {
      background-color: #f7f7f7;
      white-space: pre;
      word-wrap: normal;
-     font-size: .8em;
+     font-size: 1.1em;
      line-height: 1.2;
      border:#000000 dashed 1px;
  }
@@ -109,4 +109,9 @@ body {
     .title{
         font-size: 25px;
     }
+}
+
+.title-unserline {
+border-bottom: solid 3px #f48fb1;
+position: relative;
 }

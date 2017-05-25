@@ -12,14 +12,13 @@
     
     
     <item>
-      <title>hello,hugo</title>
+      <title>Hello,hugo</title>
       <link>http://blog.karaage.tokyo/post/2017-05-24-hellohugo/</link>
       <pubDate>Wed, 24 May 2017 21:00:47 +0900</pubDate>
       
       <guid>http://blog.karaage.tokyo/post/2017-05-24-hellohugo/</guid>
-      <description>&lt;p&gt;hugoを導入した&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;hugoを導入した&lt;br /&gt;
+それらのメモ&lt;/p&gt;</description>
     </item>
     
   </channel>
