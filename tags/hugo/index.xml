@@ -6,10 +6,20 @@
     <description>Recent content in Hugo on 唐揚げとエンジニアリング</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Wed, 24 May 2017 21:00:47 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 27 May 2017 19:39:05 +0900</lastBuildDate>
     
 	<atom:link href="http://blog.karaage.tokyo/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Helloのテンプレートの話</title>
+      <link>http://blog.karaage.tokyo/post/2017-05-27-hugo-template/</link>
+      <pubDate>Sat, 27 May 2017 19:39:05 +0900</pubDate>
+      
+      <guid>http://blog.karaage.tokyo/post/2017-05-27-hugo-template/</guid>
+      <description>&lt;p&gt;hugoでブログを作る際に一からテンプレートを作成した。&lt;br /&gt;
+それらのメモ。&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hello,hugo</title>
