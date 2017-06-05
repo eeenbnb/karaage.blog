@@ -94,17 +94,32 @@ body {
  h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
    margin-top: 0; }
 
- li p.first {
-   display: inline-block; }
-
- ul, ol {
-   padding-left: 30px; }
-
- ul :first-child, ol :first-child {
-   margin-top: 0; }
-
- ul :last-child, ol :last-child {
-   margin-bottom: 0; }
+   .entry-content ul li {
+     position:relative;
+     padding-left:20px;
+   }
+   .entry-content ul li:after, .entry-content ul li:before{
+     content:'';
+     display:block;
+     position:absolute;
+     top:4px;
+     left:8px;
+     height:11px;
+     width:4px;
+     background:#aaa;
+     border-radius:10px;
+     transform:rotate(45deg);
+     -webkit-transform:rotate(45deg);
+     -o-transform:rotate(45deg);
+   }
+   .entry-content ul li:before{
+     top:8px;
+     left:3px;
+     height:8px;
+     transform:rotate(-45deg);
+     -webkit-transform:rotate(-45deg);
+     -o-transform:rotate(-45deg);
+   }
 
  dl {
    padding: 0; }
