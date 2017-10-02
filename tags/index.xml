@@ -6,10 +6,19 @@
     <description>Recent content in Tags on 唐揚げとエンジニアリング</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
-    <lastBuildDate>Sat, 27 May 2017 19:39:05 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 18 Jun 2017 21:00:47 +0900</lastBuildDate>
     
 	<atom:link href="http://blog.karaage.tokyo/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Angluar</title>
+      <link>http://blog.karaage.tokyo/tags/angluar/</link>
+      <pubDate>Sun, 18 Jun 2017 21:00:47 +0900</pubDate>
+      
+      <guid>http://blog.karaage.tokyo/tags/angluar/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>
@@ -17,6 +26,24 @@
       <pubDate>Sat, 27 May 2017 19:39:05 +0900</pubDate>
       
       <guid>http://blog.karaage.tokyo/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javascript</title>
+      <link>http://blog.karaage.tokyo/tags/javascript/</link>
+      <pubDate>Sun, 18 Jun 2017 21:00:47 +0900</pubDate>
+      
+      <guid>http://blog.karaage.tokyo/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typescript</title>
+      <link>http://blog.karaage.tokyo/tags/typescript/</link>
+      <pubDate>Sun, 18 Jun 2017 21:00:47 +0900</pubDate>
+      
+      <guid>http://blog.karaage.tokyo/tags/typescript/</guid>
       <description></description>
     </item>
     

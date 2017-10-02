@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://blog.karaage.tokyo/post/2017-06-18-angluer2/</loc>
+    <lastmod>2017-06-18T21:00:47+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.karaage.tokyo/post/2017-05-27-hugo-template/</loc>
     <lastmod>2017-05-27T19:39:05+09:00</lastmod>
   </url>
@@ -10,6 +15,12 @@
   <url>
     <loc>http://blog.karaage.tokyo/post/2017-05-24-hellohugo/</loc>
     <lastmod>2017-05-24T21:00:47+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.karaage.tokyo/tags/angluar/</loc>
+    <lastmod>2017-06-18T21:00:47+09:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -31,20 +42,38 @@
   </url>
   
   <url>
+    <loc>http://blog.karaage.tokyo/tags/javascript/</loc>
+    <lastmod>2017-06-18T21:00:47+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.karaage.tokyo/categories/javascript/</loc>
+    <lastmod>2017-06-18T21:00:47+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.karaage.tokyo/post/</loc>
-    <lastmod>2017-05-27T19:39:05+09:00</lastmod>
+    <lastmod>2017-06-18T21:00:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.karaage.tokyo/tags/</loc>
-    <lastmod>2017-05-27T19:39:05+09:00</lastmod>
+    <lastmod>2017-06-18T21:00:47+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.karaage.tokyo/tags/typescript/</loc>
+    <lastmod>2017-06-18T21:00:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.karaage.tokyo/</loc>
-    <lastmod>2017-05-27T19:39:05+09:00</lastmod>
+    <lastmod>2017-06-18T21:00:47+09:00</lastmod>
     <priority>0</priority>
   </url>
   
